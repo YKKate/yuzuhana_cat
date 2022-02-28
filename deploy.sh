@@ -2,6 +2,8 @@
 
 # abort on errors
 set -e
+DEPLAY_DATETIME=$(date +"%Y/%m/%d %H:%M")
+echo "VUE_APP_DEPLOY_DATETIME=$DEPLAY_DATETIME" > .env
 
 # build
 npm run build
