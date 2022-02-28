@@ -1,0 +1,10 @@
+body {
+  padding-top: $mobileHeaderHeight + 20px;
+  background-color: rgba($color-quaternary, .3);
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    padding-top: $headerHeight + 20px;
+  }
+}
